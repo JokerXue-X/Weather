@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFF0"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="420dp"
+        android:layout_margin="10dp"
+        android:orientation="vertical">
+        <!--设置布局里面控件的个个信息-->
+
+        <TextView
+            android:id="@+id/infor_province"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="#FFB90F"
+            android:textSize="40sp" />
+
+
+        <TextView
+            android:id="@+id/infor_city"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="#FFB90F"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/infor_date"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="#FFB90F"
+            android:textSize="25sp" />
+
+        <TextView
+            android:id="@+id/infor_temperature"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="#FFB90F"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/infor_humidity"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="#FFB90F"
+            android:textSize="40sp" />
+
+        <TextView
+            android:id="@+id/infor_weather"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:textColor="#FFB90F"
+            android:textSize="40sp" />
+
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <!--设置布局里面控件的个个信息-->
+
+        <Button
+            android:id="@+id/add_follow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#FFDEAD"
+            android:gravity="center"
+            android:text="关注"
+            android:textColor="#DAA569" />
+
+
+        <Button
+            android:id="@+id/cancel_follow"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:layout_weight="1"
+            android:background="#FFDEAD"
+            android:gravity="center"
+            android:text="取消关注"
+            android:textColor="#DAA569" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_margin="10dp"
+        android:orientation="horizontal">
+        <!--设置布局里面控件的个个信息-->
+
+        <Button
+            android:id="@+id/refresh"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="#FFDEAD"
+            android:gravity="center"
+            android:text="刷新"
+            android:textColor="#DAA569" />
+
+        <Button
+            android:id="@+id/show_return"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="match_parent"
+            android:layout_margin="5dp"
+            android:background="#FFDEAD"
+            android:gravity="center"
+            android:text="返回"
+            android:textColor="#DAA569" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
